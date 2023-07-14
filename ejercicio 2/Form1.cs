@@ -69,8 +69,7 @@ namespace ejercicio_2
                     //else
                     //{ }
 
-                    MessageBox.Show($"la cantidad de menores es {menores}.",
-                        $"la cantidad de mayores { mayores } ");
+                    MessageBox.Show($"la cantidad de menores es {menores}.\r\n la cantidad de mayores { mayores }");
                 vcargar.Dispose();
 
             
@@ -87,11 +86,16 @@ namespace ejercicio_2
             }
             else
             {
-                rondas = new Random().Next(int.MinValue, int.MaxValue);
+                Torneo torneo = new Torneo(5, 10);
+               
                 fTorneo vTorneo = new fTorneo();
 
                 for (int k = 0; k < i; k++)
                     vTorneo.lbTorneo.Items.Add($"0{k + 1} - {competidores[k].Nombre}.");
+
+                vTorneo.lbTorneo.Items.Add($"cantidad de Rondas: { torneo.NroRondas } .");
+
+
                 vTorneo.ShowDialog();
             }
            
