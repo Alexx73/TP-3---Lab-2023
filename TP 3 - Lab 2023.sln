@@ -5,9 +5,7 @@ VisualStudioVersion = 16.0.33529.622
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejercicio 1", "ejercicio 1\ejercicio 1.csproj", "{EAD748BF-65DA-42D3-9780-F956D0ECEA07}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ejercicio 2", "ejercicio 2", "{111F2B7D-22FD-446F-B0F9-9B01B23475E1}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejercicio_2", "..\tp3\ejercicio_2.csproj", "{EA855589-C2AC-4414-836D-015ACD4010E6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejercicio_2", "ejercicio 2\ejercicio_2.csproj", "{BD6D33E3-BEA2-4A3F-83A5-9EE9FA4ECB31}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,16 +17,13 @@ Global
 		{EAD748BF-65DA-42D3-9780-F956D0ECEA07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EAD748BF-65DA-42D3-9780-F956D0ECEA07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EAD748BF-65DA-42D3-9780-F956D0ECEA07}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EA855589-C2AC-4414-836D-015ACD4010E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EA855589-C2AC-4414-836D-015ACD4010E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EA855589-C2AC-4414-836D-015ACD4010E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EA855589-C2AC-4414-836D-015ACD4010E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD6D33E3-BEA2-4A3F-83A5-9EE9FA4ECB31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD6D33E3-BEA2-4A3F-83A5-9EE9FA4ECB31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD6D33E3-BEA2-4A3F-83A5-9EE9FA4ECB31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD6D33E3-BEA2-4A3F-83A5-9EE9FA4ECB31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{EA855589-C2AC-4414-836D-015ACD4010E6} = {111F2B7D-22FD-446F-B0F9-9B01B23475E1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {008C694F-7417-43CB-A37A-62DF3B713D33}

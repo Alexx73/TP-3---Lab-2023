@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{43B361AD-2D1B-4B56-AF04-0E0ED7AF4F82}</ProjectGuid>
+    <ProjectGuid>{BD6D33E3-BEA2-4A3F-83A5-9EE9FA4ECB31}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>ejercicio_2</RootNamespace>
-    <AssemblyName>ejercicio 2</AssemblyName>
+    <AssemblyName>ejercicio_2</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,14 +46,37 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Competidor.cs" />
+    <Compile Include="fCompetidor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fCompetidor.Designer.cs">
+      <DependentUpon>fCompetidor.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="fTorneo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fTorneo.Designer.cs">
+      <DependentUpon>fTorneo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Torneo.cs" />
+    <EmbeddedResource Include="fCompetidor.resx">
+      <DependentUpon>fCompetidor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fTorneo.resx">
+      <DependentUpon>fTorneo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
