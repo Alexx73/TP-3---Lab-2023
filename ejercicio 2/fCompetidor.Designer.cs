@@ -29,6 +29,7 @@ namespace ejercicio_2
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.bAceptar = new System.Windows.Forms.Button();
             this.bCancelar = new System.Windows.Forms.Button();
             this.tbNombre = new System.Windows.Forms.TextBox();
@@ -39,6 +40,8 @@ namespace ejercicio_2
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.la_NroCompetidor = new System.Windows.Forms.Label();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip2 = new System.Windows.Forms.ToolTip(this.components);
             this.SuspendLayout();
             // 
             // bAceptar
@@ -164,5 +167,7 @@ namespace ejercicio_2
         public System.Windows.Forms.TextBox tbClub;
         private System.Windows.Forms.Label label4;
         public System.Windows.Forms.Label la_NroCompetidor;
+        private System.Windows.Forms.ToolTip toolTip1;
+        private System.Windows.Forms.ToolTip toolTip2;
     }
 }
